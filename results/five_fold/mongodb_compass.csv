@@ -1,0 +1,11 @@
+project,fold,lr,n_train,n_fit,n_val,MAE,MdAE,best_epoch,best_es_MAE,early_stop_source,batch_size_eff,target_shift,seed,fold_scheme,sbert_model
+mongodb_compass,1,0.001,48,48,49,0.7089521288871765,0.058336734771728516,30,nan,fixed_epochs,12,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+mongodb_compass,2,0.001,97,97,49,1.1734908819198608,1.9780879020690918,30,nan,fixed_epochs,25,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+mongodb_compass,3,0.001,146,146,48,1.3965047597885132,1.9945926666259766,30,nan,fixed_epochs,37,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+mongodb_compass,4,0.001,194,194,48,1.2348099946975708,1.020576000213623,30,nan,fixed_epochs,49,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+mongodb_compass,5,0.001,242,206,49,1.490817666053772,1.0117361545562744,35,1.2236084938049316,inner_holdout,52,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+mongodb_compass,1,0.0003,48,48,49,0.7068452835083008,0.05548572540283203,30,nan,fixed_epochs,12,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+mongodb_compass,2,0.0003,97,97,49,1.1865172386169434,1.9583230018615723,30,nan,fixed_epochs,25,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+mongodb_compass,3,0.0003,146,146,48,1.3960460424423218,1.9612177610397339,30,nan,fixed_epochs,37,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+mongodb_compass,4,0.0003,194,194,48,1.2413569688796997,1.038622260093689,30,nan,fixed_epochs,49,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+mongodb_compass,5,0.0003,242,206,49,1.4918429851531982,1.0193631649017334,166,1.2246047258377075,inner_holdout,52,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2

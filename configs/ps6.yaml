@@ -1,0 +1,74 @@
+# PS-6 - SBERT sentence embeddings - within-project - temporal ordering
+# All experiment knobs. Edit here; do not patch source code.
+
+seed: 42
+device: auto                 # auto | cpu | cuda
+
+data:
+  min_issues: 0            
+  raw_dir: data/raw
+  raw_file: sbert_project6_issues.csv   # load exactly this file (do not glob *.csv); loader must honour it
+  processed_dir: data/processed
+  embeddings_dir: data/embeddings
+  splits_dir: data/splits
+  download_url: ""           # loader must skip download when empty
+
+  column_mapping:
+    issue_key:   ["Issue_Key", "issue_key", "IssueKey", "Key", "key", "Issue Key"]
+    project:     ["Project_Name", "project_name", "ProjectName", "projectName", "Project", "project"]  # removed ambiguous "Name"
+    repository:  ["Repository_Name", "repository", "Repository", "company", "Company"]
+    title:       ["Title", "title", "Summary", "summary"]
+    description: ["Description_Text", "Description", "description", "Desc", "body"]
+    story_point: ["Story_Point", "story_point", "StoryPoints", "Story Point",
+                  "storyPoint", "Story_Points", "SP", "Story Points"]   # removed "estimation" (ambiguous)
+    created_at:  ["Creation_Date", "created_at", "Created Date", "Created",
+                  "created", "CreatedDate", "creationdate", "creation_date"]
+    text:        ["SBERT_Text", "sbert_text", "SBERT Text", "combined_text"]  # removed bare "text"/"Text"
+
+  # Inclusive bounds, applied on top of the extraction filters. Fractional SPs (<1) are dropped.
+  sp_min: 1
+  sp_max: 100
+
+sbert:
+  model_name: "sentence-transformers/all-MiniLM-L6-v2"   # 384-d; truncates input at 256 word-pieces (report as a limitation)
+  normalize: true
+  batch_size: 64
+  text_template: "{title}\n\n{description}"   # must give the same text as SBERT_Text, or ignore one of the two
+
+model:
+  arch: cnn
+  cnn_filters: [16, 32, 64]  # was [64,128,256]: far too large for a few hundred issues. Needs pooling/GAP before the FC layer
+  kernel_size: 3
+  dropout: 0.3
+  fc_dim: 64
+  log1p_target: false        # if true, invert with expm1 BEFORE computing MAE/MdAE
+
+train:
+  loss: l1
+  optimizer: adam
+  lr_grid: [1.0e-3, 3.0e-4]  # keep the ".0": PyYAML reads "1e-3" as a string
+  weight_decay: 1.0e-4
+  batch_size: 64
+  max_epochs: 200
+  patience: 20
+  min_epochs: 30             # early stopping cannot trigger before this epoch (tiny folds get few steps per epoch)
+  num_workers: 0
+  inner_val_frac: 0.15       # last 15% (chronological) of each training block is used for early stopping; 0 = old behaviour
+
+split:
+  dev_ratio: 0.8             # dev_ratio + test_ratio must equal 1 (assert in code)
+  test_ratio: 0.2
+  n_folds: 5                 # validation runs wanted
+  n_blocks: null             # null = auto (rolling: n_folds+1 blocks -> n_folds causal validation runs; blocked: n_folds)
+  fold_scheme: rolling       # was "blocked". rolling = expanding window: train on earlier folds, validate on the next one
+
+eval:
+  metrics: [mae, mdae]
+  round_decimals: 4
+
+results:
+  five_fold_dir: results/five_fold
+  test_dir: results/test
+  summary_dir: results/summary
+  plots_dir: results/plots
+  experiment_log: results/experiment_log.csv

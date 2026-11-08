@@ -1,0 +1,11 @@
+project,fold,lr,n_train,n_fit,n_val,MAE,MdAE,best_epoch,best_es_MAE,early_stop_source,batch_size_eff,target_shift,seed,fold_scheme,sbert_model
+the_mongo_java_driver,1,0.001,26,26,26,0.030760614201426506,0.03081458806991577,30,nan,fixed_epochs,8,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+the_mongo_java_driver,2,0.001,52,52,26,0.032092392444610596,0.03204411268234253,30,nan,fixed_epochs,13,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+the_mongo_java_driver,3,0.001,78,78,25,0.012971010059118271,0.013022422790527344,30,nan,fixed_epochs,20,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+the_mongo_java_driver,4,0.001,103,103,26,0.029882587492465973,0.03006833791732788,30,nan,fixed_epochs,26,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+the_mongo_java_driver,5,0.001,129,129,26,0.02510307915508747,0.025147557258605957,30,nan,fixed_epochs,33,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+the_mongo_java_driver,1,0.0003,26,26,26,0.04091864079236984,0.041074156761169434,30,nan,fixed_epochs,8,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+the_mongo_java_driver,2,0.0003,52,52,26,0.043015256524086,0.04309535026550293,30,nan,fixed_epochs,13,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+the_mongo_java_driver,3,0.0003,78,78,25,0.039859283715486526,0.03976798057556152,30,nan,fixed_epochs,20,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+the_mongo_java_driver,4,0.0003,103,103,26,0.04645468667149544,0.04651796817779541,30,nan,fixed_epochs,26,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+the_mongo_java_driver,5,0.0003,129,129,26,0.04647516459226608,0.04651820659637451,30,nan,fixed_epochs,33,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2

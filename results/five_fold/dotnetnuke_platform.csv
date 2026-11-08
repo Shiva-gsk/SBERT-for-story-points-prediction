@@ -1,0 +1,11 @@
+project,fold,lr,n_train,n_fit,n_val,MAE,MdAE,best_epoch,best_es_MAE,early_stop_source,batch_size_eff,target_shift,seed,fold_scheme,sbert_model
+dotnetnuke_platform,1,0.001,246,209,246,1.097754955291748,0.0006700754165649414,141,2.324551582336426,inner_holdout,53,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+dotnetnuke_platform,2,0.001,492,418,246,0.6259996891021729,0.0,98,0.4729905426502228,inner_holdout,64,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+dotnetnuke_platform,3,0.001,738,627,247,1.2218657732009888,0.9170480966567993,1,0.8115983605384827,inner_holdout,64,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+dotnetnuke_platform,4,0.001,985,837,246,1.7671303749084473,0.91217440366745,1,1.078067660331726,inner_holdout,64,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+dotnetnuke_platform,5,0.001,1231,1046,246,0.6813638806343079,0.47341930866241455,59,0.9084931015968323,inner_holdout,64,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+dotnetnuke_platform,1,0.0003,246,209,246,1.1091963052749634,0.03479635715484619,121,2.329033136367798,inner_holdout,53,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+dotnetnuke_platform,2,0.0003,492,418,246,0.630121111869812,0.02798283100128174,65,0.4841986894607544,inner_holdout,64,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+dotnetnuke_platform,3,0.0003,738,627,247,1.2184035778045654,0.9107179641723633,1,0.8109704256057739,inner_holdout,64,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+dotnetnuke_platform,4,0.0003,985,837,246,1.7659674882888794,0.9105304479598999,1,1.0773768424987793,inner_holdout,64,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+dotnetnuke_platform,5,0.0003,1231,1046,246,0.9673961997032166,0.8625531196594238,7,1.3297052383422852,inner_holdout,64,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2

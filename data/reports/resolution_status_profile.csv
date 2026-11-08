@@ -1,0 +1,143 @@
+Resolution,Status,n
+Fixed,Closed,20321
+Done,Done,17360
+Fixed,Resolved,3640
+Complete,Done,2431
+Done,Complete,2407
+<empty/NULL>,To Do,2253
+Complete,Closed,1964
+<empty/NULL>,Open,1617
+Done,Closed,1482
+Won't Fix,Closed,1222
+Done,Won't Fix,1137
+Duplicate,Closed,873
+Completed,Done,807
+Fixed,Done,700
+Cannot Reproduce,Closed,668
+Done,Resolved,626
+Done,Invalid,463
+<empty/NULL>,In Progress,435
+Completed,Closed,340
+Invalid,Closed,333
+Won't Do,Closed,328
+<empty/NULL>,New,240
+Duplicate,Done,184
+<empty/NULL>,Accepted,178
+Won't Fix or Usage Issue,Closed,163
+Gone away,Closed,157
+Timed out,Closed,138
+Won't Fix,Done,136
+<empty/NULL>,Backlog,129
+Invalid,Done,126
+Duplicate,Resolved,120
+Deferred,Done,111
+Won't Fix,Resolved,108
+<empty/NULL>,Done,107
+Not Our Bug,Closed,103
+Works as Designed,Closed,96
+<empty/NULL>,Reopened,96
+<empty/NULL>,Gathering Interest,90
+Won't Do,Done,89
+<empty/NULL>,Gathering Impact,83
+Unresolved,Closed,83
+Cannot Reproduce,Resolved,81
+Won't Fix or Usage Issue,Done,80
+Obsolete,Closed,77
+Incomplete,Closed,62
+<empty/NULL>,In Review,56
+Deferred,Closed,52
+<empty/NULL>,Long Term Backlog,51
+Works as Designed,Done,47
+Needs more info,Closed,45
+<empty/NULL>,Reviewable,42
+Won't Do,Resolved,40
+Answered,Closed,38
+Implemented,Resolved,36
+Won't Do,Complete,35
+Hold,Closed,34
+<empty/NULL>,Resolved,32
+Not a bug,Closed,31
+Invalid,Complete,31
+Invalid,Resolved,30
+<empty/NULL>,To Develop,27
+Not Our Bug,Resolved,25
+Works as Designed,Resolved,25
+<empty/NULL>,Planned Development,24
+Cannot Reproduce,Done,23
+Parked,Closed,22
+Not A Problem,Resolved,20
+Tracked Elsewhere,Closed,20
+<empty/NULL>,In Code Review,18
+<empty/NULL>,Ready for Work,17
+<empty/NULL>,Reviewed,16
+Out of scope,Closed,15
+Incomplete,Done,15
+<empty/NULL>,Needs Triage,15
+<empty/NULL>,In CR Review,15
+Needs more info,Resolved,14
+<empty/NULL>,Development in progress,13
+<empty/NULL>,Short Term Backlog,13
+Complete,Resolved,12
+Completed,Resolved,12
+Hold,Resolved,12
+Not A Bug,Closed,10
+Unresolved,Planned Development,10
+Resolved,Resolved,9
+Not A Problem,Closed,9
+Unresolved,Open,9
+<empty/NULL>,Under Consideration,9
+<empty/NULL>,Not Being Considered,9
+Abandoned,Done,7
+Deferred,Complete,7
+Gone away,Resolved,6
+<empty/NULL>,Code Review,6
+<empty/NULL>,Waiting for Release,6
+<empty/NULL>,Blocked,5
+Deployed,Closed,5
+<empty/NULL>,Ready for Development,5
+Won't Fix or Usage Issue,Resolved,5
+<empty/NULL>,In PR,4
+Unsolved Mysteries,Closed,4
+Automatically Closed,Closed,4
+<empty/NULL>,Waiting (Blocked),4
+<empty/NULL>,Integration review in progress,4
+Duplicate,Complete,4
+<empty/NULL>,Waiting for peer review,4
+<empty/NULL>,Closed,3
+Later,Resolved,3
+Rejected,Closed,3
+<empty/NULL>,In QE Test,3
+<empty/NULL>,Needs Design,3
+Abandoned,Resolved,3
+Rejected,Done,3
+Incomplete,Resolved,3
+Implemented,Closed,3
+<empty/NULL>,Awaiting Merge,2
+<empty/NULL>,Peer review in progress,2
+Unresolved,Resolved,2
+<empty/NULL>,Tested,2
+Done,In Progress,2
+Inactive,Closed,2
+Ready for Test,Closed,2
+Unresolved,Reopened,2
+Not A Bug,Resolved,2
+<empty/NULL>,Debugging With Submitter,1
+<empty/NULL>,Patch Available,1
+<empty/NULL>,Raw,1
+<empty/NULL>,Triaged,1
+Feedback Received,Resolved,1
+Declined,Closed,1
+Complete,Automation,1
+Not A Problem,Done,1
+Invalid: Environment Issue,Complete,1
+Implemented,Accepted,1
+Not A Bug,Done,1
+Later,Done,1
+Parked,Done,1
+Unresolved,Pull Request Submitted,1
+Resolved Locally,Closed,1
+Support Request,Closed,1
+Pending Closed,Resolved,1
+Ready for Release,Closed,1
+Won't Do,Needs Triage,1
+Won't Fix,Open,1

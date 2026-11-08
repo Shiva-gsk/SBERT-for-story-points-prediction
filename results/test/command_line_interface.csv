@@ -1,0 +1,2 @@
+project,n_dev,n_test,test_MAE,test_MdAE,baseline_median_MAE,baseline_median_MdAE,baseline_mean_MAE,baseline_mean_MdAE,val_MAE_selected,best_lr,retrain_epochs,epochs_basis,test_start,test_end,seed,fold_scheme,sbert_model,cnn_filters
+command_line_interface,205,51,1.646247386932373,1.9628875255584717,1.627450942993164,2.0,1.868962287902832,1.507317066192627,1.6341366291046142,0.0003,30,fixed_epochs,2017-06-22 06:18:10+00:00,2020-09-14 17:17:02+00:00,42,rolling,sentence-transformers/all-MiniLM-L6-v2,"[16, 32, 64]"

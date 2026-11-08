@@ -1,0 +1,11 @@
+project,fold,lr,n_train,n_fit,n_val,MAE,MdAE,best_epoch,best_es_MAE,early_stop_source,batch_size_eff,target_shift,seed,fold_scheme,sbert_model
+mule,1,0.001,339,288,338,2.4929425716400146,2.9924283027648926,21,2.941270351409912,inner_holdout,64,5.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+mule,2,0.001,677,575,339,2.752704381942749,2.988513946533203,13,2.630314588546753,inner_holdout,64,5.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+mule,3,0.001,1016,864,339,2.9340293407440186,2.997241497039795,45,2.6589465141296387,inner_holdout,64,5.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+mule,4,0.001,1355,1152,338,2.7586348056793213,2.981132745742798,10,2.950197696685791,inner_holdout,64,5.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+mule,5,0.001,1693,1439,339,2.7657597064971924,2.9383316040039062,17,2.60821795463562,inner_holdout,64,5.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+mule,1,0.0003,339,288,338,2.4934747219085693,2.9910213947296143,25,2.941507577896118,inner_holdout,64,5.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+mule,2,0.0003,677,575,339,2.7557098865509033,2.9808926582336426,9,2.632455825805664,inner_holdout,64,5.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+mule,3,0.0003,1016,864,339,2.9448657035827637,2.9722723960876465,2,2.6663336753845215,inner_holdout,64,5.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+mule,4,0.0003,1355,1152,338,2.7615890502929688,2.99468731880188,82,2.953622817993164,inner_holdout,64,5.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+mule,5,0.0003,1693,1439,339,2.789658308029175,2.990375518798828,45,2.6243631839752197,inner_holdout,64,5.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2

@@ -1,0 +1,11 @@
+project,fold,lr,n_train,n_fit,n_val,MAE,MdAE,best_epoch,best_es_MAE,early_stop_source,batch_size_eff,target_shift,seed,fold_scheme,sbert_model
+atlassian_confluence_server,1,0.001,43,43,43,1.2210369110107422,0.9535641670227051,30,nan,fixed_epochs,11,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_confluence_server,2,0.001,86,86,44,1.2846051454544067,1.0430269241333008,30,nan,fixed_epochs,22,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_confluence_server,3,0.001,130,130,43,1.016230583190918,1.0258195400238037,30,nan,fixed_epochs,33,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_confluence_server,4,0.001,173,173,43,0.9459483027458191,1.0251541137695312,30,nan,fixed_epochs,44,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_confluence_server,5,0.001,216,184,43,0.7217754125595093,0.9938371181488037,64,0.9066046476364136,inner_holdout,46,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_confluence_server,1,0.0003,43,43,43,1.235582709312439,1.0377197265625,30,nan,fixed_epochs,11,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_confluence_server,2,0.0003,86,86,44,1.2812663316726685,1.038758397102356,30,nan,fixed_epochs,22,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_confluence_server,3,0.0003,130,130,43,1.0253149271011353,1.0396087169647217,30,nan,fixed_epochs,33,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_confluence_server,4,0.0003,173,173,43,0.9484323859214783,1.0301649570465088,30,nan,fixed_epochs,44,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_confluence_server,5,0.0003,216,184,43,0.7412706017494202,1.0293941497802734,26,0.9240108132362366,inner_holdout,46,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2

@@ -1,0 +1,11 @@
+project,fold,lr,n_train,n_fit,n_val,MAE,MdAE,best_epoch,best_es_MAE,early_stop_source,batch_size_eff,target_shift,seed,fold_scheme,sbert_model
+atlassian_bamboo,1,0.001,47,47,47,1.8934032917022705,1.0420804023742676,30,nan,fixed_epochs,12,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_bamboo,2,0.001,94,94,48,1.1530588865280151,1.0364609956741333,30,nan,fixed_epochs,24,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_bamboo,3,0.001,142,142,47,1.4534634351730347,1.913520097732544,30,nan,fixed_epochs,36,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_bamboo,4,0.001,189,189,47,0.6950109004974365,0.9708983898162842,30,nan,fixed_epochs,48,2.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_bamboo,5,0.001,236,201,47,0.687038242816925,0.990308403968811,45,0.6922428607940674,inner_holdout,51,2.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_bamboo,1,0.0003,47,47,47,1.8978487253189087,1.0485780239105225,30,nan,fixed_epochs,12,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_bamboo,2,0.0003,94,94,48,1.1468734741210938,1.0279741287231445,30,nan,fixed_epochs,24,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_bamboo,3,0.0003,142,142,47,1.5077236890792847,1.9731776714324951,30,nan,fixed_epochs,36,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_bamboo,4,0.0003,189,189,47,0.7141452431678772,0.9413869380950928,30,nan,fixed_epochs,48,2.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_bamboo,5,0.0003,236,201,47,0.7001279592514038,1.013749599456787,93,0.7002113461494446,inner_holdout,51,2.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2

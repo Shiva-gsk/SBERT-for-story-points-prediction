@@ -1,0 +1,11 @@
+project,fold,lr,n_train,n_fit,n_val,MAE,MdAE,best_epoch,best_es_MAE,early_stop_source,batch_size_eff,target_shift,seed,fold_scheme,sbert_model
+atlassian_jira_cloud,1,0.001,42,42,42,1.1417007446289062,0.0363764762878418,30,nan,fixed_epochs,11,4.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_jira_cloud,2,0.001,84,84,42,1.0438209772109985,0.02628183364868164,30,nan,fixed_epochs,21,4.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_jira_cloud,3,0.001,126,126,41,1.2943248748779297,2.031358242034912,30,nan,fixed_epochs,32,4.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_jira_cloud,4,0.001,167,167,42,1.2874456644058228,1.0007200241088867,30,nan,fixed_epochs,42,4.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_jira_cloud,5,0.001,209,178,42,1.080031156539917,0.015554428100585938,32,1.4278564453125,inner_holdout,45,4.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_jira_cloud,1,0.0003,42,42,42,1.1492258310317993,0.0488133430480957,30,nan,fixed_epochs,11,4.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_jira_cloud,2,0.0003,84,84,42,1.057863473892212,0.04369688034057617,30,nan,fixed_epochs,21,4.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_jira_cloud,3,0.0003,126,126,41,1.3030236959457397,2.0425162315368652,30,nan,fixed_epochs,32,4.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_jira_cloud,4,0.0003,167,167,42,1.3122460842132568,1.0034191608428955,30,nan,fixed_epochs,42,4.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_jira_cloud,5,0.0003,209,178,42,1.0759022235870361,0.00929117202758789,187,1.4236390590667725,inner_holdout,45,4.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2

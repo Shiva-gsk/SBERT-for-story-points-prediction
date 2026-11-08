@@ -1,0 +1,9 @@
+Step,Rows_remaining,Dropped
+Story_Point IS NOT NULL (start),65427,0
+Creation_Date valid,65427,0
+Resolved (Resolution non-empty),59785,5642
+0.0 < Story_Point <= 100.0,57429,2356
+Story_Point not changed after estimation,50200,7229
+Title not changed after estimation,41307,8893
+Description not changed after estimation,41307,0
+Non-empty text (title or description),41307,0

@@ -1,0 +1,11 @@
+project,fold,lr,n_train,n_fit,n_val,MAE,MdAE,best_epoch,best_es_MAE,early_stop_source,batch_size_eff,target_shift,seed,fold_scheme,sbert_model
+atlassian_fisheye,1,0.001,11,11,11,0.8885717391967773,0.590355396270752,30,nan,fixed_epochs,8,2.5,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_fisheye,2,0.001,22,22,11,1.0935924053192139,1.0438587665557861,30,nan,fixed_epochs,8,2.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_fisheye,3,0.001,33,33,11,0.6766095757484436,0.9221603870391846,30,nan,fixed_epochs,9,2.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_fisheye,4,0.001,44,44,11,0.7654057145118713,1.040003776550293,30,nan,fixed_epochs,11,2.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_fisheye,5,0.001,55,55,11,0.7285444140434265,0.9986664056777954,30,nan,fixed_epochs,14,2.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_fisheye,1,0.0003,11,11,11,0.890489399433136,0.5984201431274414,30,nan,fixed_epochs,8,2.5,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_fisheye,2,0.0003,22,22,11,1.0963178873062134,1.069838047027588,30,nan,fixed_epochs,8,2.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_fisheye,3,0.0003,33,33,11,0.6679441928863525,0.9361588954925537,30,nan,fixed_epochs,9,2.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_fisheye,4,0.0003,44,44,11,0.7701442241668701,1.0498950481414795,30,nan,fixed_epochs,11,2.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_fisheye,5,0.0003,55,55,11,0.7458066344261169,0.9628424644470215,30,nan,fixed_epochs,14,2.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2

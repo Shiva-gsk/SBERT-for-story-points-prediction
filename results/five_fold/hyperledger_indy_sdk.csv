@@ -1,0 +1,11 @@
+project,fold,lr,n_train,n_fit,n_val,MAE,MdAE,best_epoch,best_es_MAE,early_stop_source,batch_size_eff,target_shift,seed,fold_scheme,sbert_model
+hyperledger_indy_sdk,1,0.001,54,54,54,0.8735132813453674,1.021325945854187,30,nan,fixed_epochs,14,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+hyperledger_indy_sdk,2,0.001,108,108,54,0.9987273216247559,0.9850132465362549,30,nan,fixed_epochs,27,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+hyperledger_indy_sdk,3,0.001,162,162,53,0.9900323152542114,0.9270930290222168,30,nan,fixed_epochs,41,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+hyperledger_indy_sdk,4,0.001,215,183,54,1.262231707572937,0.9986077547073364,19,0.9723740816116333,inner_holdout,46,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+hyperledger_indy_sdk,5,0.001,269,229,54,1.9837769269943237,1.9956035614013672,21,1.3528469800949097,inner_holdout,58,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+hyperledger_indy_sdk,1,0.0003,54,54,54,0.8833691477775574,1.0336682796478271,30,nan,fixed_epochs,14,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+hyperledger_indy_sdk,2,0.0003,108,108,54,1.0136406421661377,1.0234006643295288,30,nan,fixed_epochs,27,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+hyperledger_indy_sdk,3,0.0003,162,162,53,0.973654568195343,0.9768433570861816,30,nan,fixed_epochs,41,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+hyperledger_indy_sdk,4,0.0003,215,183,54,1.2636818885803223,0.998022198677063,58,0.974230170249939,inner_holdout,46,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+hyperledger_indy_sdk,5,0.0003,269,229,54,1.9859833717346191,1.9816882610321045,42,1.3587898015975952,inner_holdout,58,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2

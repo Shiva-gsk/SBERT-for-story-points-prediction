@@ -1,0 +1,11 @@
+project,fold,lr,n_train,n_fit,n_val,MAE,MdAE,best_epoch,best_es_MAE,early_stop_source,batch_size_eff,target_shift,seed,fold_scheme,sbert_model
+titanium_mobile_platform,1,0.001,134,134,135,2.995088815689087,1.9900436401367188,30,nan,fixed_epochs,34,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+titanium_mobile_platform,2,0.001,269,229,134,3.5306131839752197,2.0009384155273438,23,3.2753074169158936,inner_holdout,58,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+titanium_mobile_platform,3,0.001,403,343,134,1.8044661283493042,1.9818212985992432,71,3.633880853652954,inner_holdout,64,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+titanium_mobile_platform,4,0.001,537,456,135,2.7443809509277344,1.9608426094055176,72,1.8554071187973022,inner_holdout,64,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+titanium_mobile_platform,5,0.001,672,571,134,3.178915500640869,1.3219133615493774,75,3.09946346282959,inner_holdout,64,2.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+titanium_mobile_platform,1,0.0003,134,134,135,2.9980287551879883,1.9714200496673584,30,nan,fixed_epochs,34,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+titanium_mobile_platform,2,0.0003,269,229,134,3.5311532020568848,2.001898765563965,109,3.2756423950195312,inner_holdout,58,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+titanium_mobile_platform,3,0.0003,403,343,134,1.839656114578247,2.0329067707061768,24,3.638054370880127,inner_holdout,64,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+titanium_mobile_platform,4,0.0003,537,456,135,2.7529375553131104,2.0122969150543213,15,1.887593388557434,inner_holdout,64,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+titanium_mobile_platform,5,0.0003,672,571,134,3.154980182647705,1.1282684803009033,3,3.2262260913848877,inner_holdout,64,2.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2

@@ -1,0 +1,43 @@
+pdf_name,slug,n_issues,eligible,status
+XD,spring_xd,2105,True,found
+Usergrid,apache_usergrid,254,True,found
+Titanium Mobile Platform,titanium_mobile_platform,1007,True,found
+The Titanium SDK,the_titanium_sdk,2497,True,found
+Software Cloud,atlassian_software_cloud,187,True,found
+Sawtooth,hyperledger_sawtooth,641,True,found
+Nexus,sonatype_nexus,889,True,found
+MXNet,apache_mxnet,20,True,found
+Mule APIkit,mule_apikit,325,True,found
+Mule,mule,2540,True,found
+Moodle,moodle,804,True,found
+MongoDB Core Server,mongodb_core_server,527,True,found
+MESOS,apache_mesos,2008,True,found
+Lyrasis Dura Cloud,lyrasis_dura_cloud,483,True,found
+Lsstcorp Data management,lsstcorp_data_management,11448,True,found
+Jira Server,atlassian_jira_server,273,True,found
+Jira Cloud,atlassian_jira_cloud,314,True,found
+Java driver,the_mongo_java_driver,194,True,found
+Indy SDK,hyperledger_indy_sdk,404,True,found
+Indy Node,hyperledger_indy_node,369,True,found
+FishEye,atlassian_fisheye,83,True,found
+Fabric,hyperledger_fabric,440,True,found
+Evergreen,,0,False,NOT FOUND
+DotNetNuke Platform,dotnetnuke_platform,1846,True,found
+DataCass,spring_datacass,168,True,found
+Crowd,atlassian_crowd,114,True,found
+Confluence Server,atlassian_confluence_server,324,True,found
+Confluence Cloud,atlassian_confluence_cloud,232,True,found
+Compass,mongodb_compass,364,True,found
+Command-Line Interface,command_line_interface,256,True,found
+Clover,atlassian_clover,269,True,found
+C++ driver (Appcelerator),,0,False,NOT FOUND
+C++ driver (MongoDB),,0,False,NOT FOUND
+Blockchain Explorer,hyperledger_blockchain_explorer,233,True,found
+Bamboo,atlassian_bamboo,354,True,found
+Atlassian Software Server,atlassian_atlassian_software_server,211,True,found
+Appcelerator Studio,appcelerator_studio,2247,True,found
+Appcelerator Daemon,appcelerator_daemon,173,True,found
+Alloy Framework,alloy_framework,205,True,found
+,aptana_studio,451,True,not in guideline list
+,the_mongo_c_driver,127,True,not in guideline list
+,the_mongodb_engineering,4202,True,not in guideline list

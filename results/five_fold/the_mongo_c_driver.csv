@@ -1,0 +1,11 @@
+project,fold,lr,n_train,n_fit,n_val,MAE,MdAE,best_epoch,best_es_MAE,early_stop_source,batch_size_eff,target_shift,seed,fold_scheme,sbert_model
+the_mongo_c_driver,1,0.001,17,17,17,0.20133338868618011,0.032582879066467285,30,nan,fixed_epochs,8,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+the_mongo_c_driver,2,0.001,34,34,17,0.3663029372692108,0.04560267925262451,30,nan,fixed_epochs,9,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+the_mongo_c_driver,3,0.001,51,51,17,0.031504154205322266,0.03167164325714111,30,nan,fixed_epochs,13,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+the_mongo_c_driver,4,0.001,68,68,17,0.9432833194732666,0.044989585876464844,30,nan,fixed_epochs,17,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+the_mongo_c_driver,5,0.001,85,85,17,0.08822332322597504,0.033387184143066406,30,nan,fixed_epochs,22,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+the_mongo_c_driver,1,0.0003,17,17,17,0.2191321700811386,0.05585956573486328,30,nan,fixed_epochs,8,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+the_mongo_c_driver,2,0.0003,34,34,17,0.36614862084388733,0.04720914363861084,30,nan,fixed_epochs,9,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+the_mongo_c_driver,3,0.0003,51,51,17,0.04851379245519638,0.04878222942352295,30,nan,fixed_epochs,13,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+the_mongo_c_driver,4,0.0003,68,68,17,0.943166971206665,0.04343104362487793,30,nan,fixed_epochs,17,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+the_mongo_c_driver,5,0.0003,85,85,17,0.10199008136987686,0.0487060546875,30,nan,fixed_epochs,22,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2

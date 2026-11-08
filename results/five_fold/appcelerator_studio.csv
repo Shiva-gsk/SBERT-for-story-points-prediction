@@ -1,0 +1,11 @@
+project,fold,lr,n_train,n_fit,n_val,MAE,MdAE,best_epoch,best_es_MAE,early_stop_source,batch_size_eff,target_shift,seed,fold_scheme,sbert_model
+appcelerator_studio,1,0.001,300,255,299,4.448744773864746,4.7847771644592285,60,3.3986735343933105,inner_holdout,64,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+appcelerator_studio,2,0.001,599,509,300,1.8510661125183105,2.002474308013916,144,2.455583095550537,inner_holdout,64,5.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+appcelerator_studio,3,0.001,899,764,300,1.5901864767074585,2.0000579357147217,63,1.8963963985443115,inner_holdout,64,5.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+appcelerator_studio,4,0.001,1199,1019,299,1.5083894729614258,1.9998931884765625,75,1.4944947957992554,inner_holdout,64,5.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+appcelerator_studio,5,0.001,1498,1273,300,1.3338123559951782,1.9978058338165283,30,1.5156519412994385,inner_holdout,64,5.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+appcelerator_studio,1,0.0003,300,255,299,5.752821445465088,6.874699592590332,5,4.852630138397217,inner_holdout,64,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+appcelerator_studio,2,0.0003,599,509,300,1.8640562295913696,2.04522442817688,15,2.4612953662872314,inner_holdout,64,5.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+appcelerator_studio,3,0.0003,899,764,300,1.5904334783554077,1.9997825622558594,178,1.896580696105957,inner_holdout,64,5.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+appcelerator_studio,4,0.0003,1199,1019,299,1.5156779289245605,2.0103869438171387,45,1.501070499420166,inner_holdout,64,5.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+appcelerator_studio,5,0.0003,1498,1273,300,1.3339918851852417,1.9963538646697998,70,1.5158461332321167,inner_holdout,64,5.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2

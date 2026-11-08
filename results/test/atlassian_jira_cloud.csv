@@ -1,0 +1,2 @@
+project,n_dev,n_test,test_MAE,test_MdAE,baseline_median_MAE,baseline_median_MdAE,baseline_mean_MAE,baseline_mean_MdAE,val_MAE_selected,best_lr,retrain_epochs,epochs_basis,test_start,test_end,seed,fold_scheme,sbert_model,cnn_filters
+atlassian_jira_cloud,251,63,1.224012017250061,0.025840282440185547,1.20634925365448,0.0,1.2267754077911377,0.07569718360900879,1.169464683532715,0.001,32,inner_holdout,2016-10-26 14:22:04+00:00,2018-04-09 02:36:37+00:00,42,rolling,sentence-transformers/all-MiniLM-L6-v2,"[16, 32, 64]"

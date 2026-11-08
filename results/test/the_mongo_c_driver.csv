@@ -1,0 +1,2 @@
+project,n_dev,n_test,test_MAE,test_MdAE,baseline_median_MAE,baseline_median_MdAE,baseline_mean_MAE,baseline_mean_MdAE,val_MAE_selected,best_lr,retrain_epochs,epochs_basis,test_start,test_end,seed,fold_scheme,sbert_model,cnn_filters
+the_mongo_c_driver,102,25,0.529624879360199,0.035962820053100586,0.5199999809265137,0.0,0.6050980687141418,0.30392158031463623,0.32612942457199096,0.001,30,fixed_epochs,2017-06-06 19:34:21+00:00,2020-03-30 17:39:58+00:00,42,rolling,sentence-transformers/all-MiniLM-L6-v2,"[16, 32, 64]"

@@ -1,0 +1,11 @@
+project,fold,lr,n_train,n_fit,n_val,MAE,MdAE,best_epoch,best_es_MAE,early_stop_source,batch_size_eff,target_shift,seed,fold_scheme,sbert_model
+atlassian_atlassian_software_server,1,0.001,28,28,28,3.282578229904175,1.9813939332962036,30,nan,fixed_epochs,8,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_atlassian_software_server,2,0.001,56,56,28,1.8894684314727783,1.1104079484939575,30,nan,fixed_epochs,14,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_atlassian_software_server,3,0.001,84,84,29,2.044992208480835,1.9658703804016113,30,nan,fixed_epochs,21,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_atlassian_software_server,4,0.001,113,113,28,1.1734850406646729,1.0475050210952759,30,nan,fixed_epochs,29,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_atlassian_software_server,5,0.001,141,141,28,1.5419185161590576,1.0167787075042725,30,nan,fixed_epochs,36,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_atlassian_software_server,1,0.0003,28,28,28,3.281087875366211,1.9669179916381836,30,nan,fixed_epochs,8,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_atlassian_software_server,2,0.0003,56,56,28,1.8739287853240967,1.0589145421981812,30,nan,fixed_epochs,14,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_atlassian_software_server,3,0.0003,84,84,29,2.047071695327759,1.9604554176330566,30,nan,fixed_epochs,21,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_atlassian_software_server,4,0.0003,113,113,28,1.1717408895492554,1.0458788871765137,30,nan,fixed_epochs,29,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+atlassian_atlassian_software_server,5,0.0003,141,141,28,1.5511515140533447,1.034976840019226,30,nan,fixed_epochs,36,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2

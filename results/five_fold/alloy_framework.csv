@@ -1,0 +1,11 @@
+project,fold,lr,n_train,n_fit,n_val,MAE,MdAE,best_epoch,best_es_MAE,early_stop_source,batch_size_eff,target_shift,seed,fold_scheme,sbert_model
+alloy_framework,1,0.001,27,27,28,2.0873544216156006,2.0648298263549805,30,nan,fixed_epochs,8,5.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+alloy_framework,2,0.001,55,55,27,1.0650935173034668,1.065769910812378,30,nan,fixed_epochs,14,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+alloy_framework,3,0.001,82,82,27,1.0462899208068848,1.0464541912078857,30,nan,fixed_epochs,21,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+alloy_framework,4,0.001,109,109,28,1.1822589635849,1.945757508277893,30,nan,fixed_epochs,28,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+alloy_framework,5,0.001,137,137,27,1.199198842048645,1.9473817348480225,30,nan,fixed_epochs,35,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+alloy_framework,1,0.0003,27,27,28,2.033364772796631,1.9957644939422607,30,nan,fixed_epochs,8,5.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+alloy_framework,2,0.0003,55,55,27,1.058992624282837,1.0520718097686768,30,nan,fixed_epochs,14,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+alloy_framework,3,0.0003,82,82,27,1.045096755027771,1.0418224334716797,30,nan,fixed_epochs,21,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+alloy_framework,4,0.0003,109,109,28,1.1825259923934937,1.9473261833190918,30,nan,fixed_epochs,28,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+alloy_framework,5,0.0003,137,137,27,1.2011327743530273,1.9485478401184082,30,nan,fixed_epochs,35,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2

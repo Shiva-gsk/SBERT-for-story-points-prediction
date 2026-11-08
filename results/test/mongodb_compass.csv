@@ -1,0 +1,2 @@
+project,n_dev,n_test,test_MAE,test_MdAE,baseline_median_MAE,baseline_median_MdAE,baseline_mean_MAE,baseline_mean_MdAE,val_MAE_selected,best_lr,retrain_epochs,epochs_basis,test_start,test_end,seed,fold_scheme,sbert_model,cnn_filters
+mongodb_compass,291,73,1.0437989234924316,0.9884369373321533,1.0410958528518677,1.0,1.3058887720108032,1.4295532703399658,1.2009150862693787,0.001,35,inner_holdout,2019-04-30 14:49:05+00:00,2020-10-14 11:19:16+00:00,42,rolling,sentence-transformers/all-MiniLM-L6-v2,"[16, 32, 64]"

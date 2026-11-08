@@ -1,0 +1,11 @@
+project,fold,lr,n_train,n_fit,n_val,MAE,MdAE,best_epoch,best_es_MAE,early_stop_source,batch_size_eff,target_shift,seed,fold_scheme,sbert_model
+aptana_studio,1,0.001,60,60,60,4.184828281402588,3.9561872482299805,30,nan,fixed_epochs,15,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+aptana_studio,2,0.001,120,120,60,4.646427631378174,1.9468865394592285,30,nan,fixed_epochs,30,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+aptana_studio,3,0.001,180,180,61,5.6101508140563965,5.928196907043457,30,nan,fixed_epochs,45,2.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+aptana_studio,4,0.001,241,205,60,6.2136077880859375,4.857264518737793,12,4.421913146972656,inner_holdout,52,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+aptana_studio,5,0.001,301,256,60,5.232270240783691,2.8945491313934326,12,3.8314099311828613,inner_holdout,64,5.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+aptana_studio,1,0.0003,60,60,60,4.182808876037598,3.951918363571167,30,nan,fixed_epochs,15,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+aptana_studio,2,0.0003,120,120,60,4.64162540435791,1.9402880668640137,30,nan,fixed_epochs,30,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+aptana_studio,3,0.0003,180,180,61,5.627431392669678,5.948322296142578,30,nan,fixed_epochs,45,2.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+aptana_studio,4,0.0003,241,205,60,6.240506172180176,4.88672399520874,1,4.437076568603516,inner_holdout,52,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+aptana_studio,5,0.0003,301,256,60,5.2318501472473145,2.891099691390991,1,3.8303678035736084,inner_holdout,64,5.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2

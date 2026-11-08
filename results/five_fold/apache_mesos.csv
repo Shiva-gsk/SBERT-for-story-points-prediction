@@ -1,0 +1,11 @@
+project,fold,lr,n_train,n_fit,n_val,MAE,MdAE,best_epoch,best_es_MAE,early_stop_source,batch_size_eff,target_shift,seed,fold_scheme,sbert_model
+apache_mesos,1,0.001,268,228,267,1.5032920837402344,0.9021708965301514,1,2.3902158737182617,inner_holdout,57,2.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+apache_mesos,2,0.001,535,455,268,1.2069424390792847,0.9737116098403931,69,1.237931489944458,inner_holdout,64,2.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+apache_mesos,3,0.001,803,683,268,1.2058061361312866,0.9820657968521118,4,1.0458252429962158,inner_holdout,64,2.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+apache_mesos,4,0.001,1071,910,267,1.308670997619629,0.965794563293457,2,1.1327762603759766,inner_holdout,64,2.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+apache_mesos,5,0.001,1338,1137,268,1.281048059463501,0.7180323600769043,41,1.2919607162475586,inner_holdout,64,2.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+apache_mesos,1,0.0003,268,228,267,1.5016056299209595,0.8900089263916016,1,2.3889973163604736,inner_holdout,57,2.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+apache_mesos,2,0.0003,535,455,268,1.2143539190292358,0.8771198987960815,2,1.2971155643463135,inner_holdout,64,2.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+apache_mesos,3,0.0003,803,683,268,1.20633864402771,0.934941291809082,21,1.057563066482544,inner_holdout,64,2.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+apache_mesos,4,0.0003,1071,910,267,1.3062736988067627,0.9420516490936279,17,1.1341191530227661,inner_holdout,64,2.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+apache_mesos,5,0.0003,1338,1137,268,1.2724003791809082,0.7663441896438599,120,1.2860074043273926,inner_holdout,64,2.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2

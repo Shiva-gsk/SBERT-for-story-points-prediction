@@ -1,0 +1,11 @@
+project,fold,lr,n_train,n_fit,n_val,MAE,MdAE,best_epoch,best_es_MAE,early_stop_source,batch_size_eff,target_shift,seed,fold_scheme,sbert_model
+spring_datacass,1,0.001,22,22,23,2.4033491611480713,2.047654628753662,30,nan,fixed_epochs,8,4.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+spring_datacass,2,0.001,45,45,22,6.125432014465332,4.949096202850342,30,nan,fixed_epochs,12,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+spring_datacass,3,0.001,67,67,22,2.207000970840454,2.0380144119262695,30,nan,fixed_epochs,17,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+spring_datacass,4,0.001,89,89,23,1.6169555187225342,1.993340015411377,30,nan,fixed_epochs,23,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+spring_datacass,5,0.001,112,112,22,7.092050075531006,2.008331775665283,30,nan,fixed_epochs,28,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+spring_datacass,1,0.0003,22,22,23,2.4340872764587402,2.142469882965088,30,nan,fixed_epochs,8,4.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+spring_datacass,2,0.0003,45,45,22,6.11998176574707,4.9331769943237305,30,nan,fixed_epochs,12,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+spring_datacass,3,0.0003,67,67,22,2.231445550918579,2.0945029258728027,30,nan,fixed_epochs,17,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+spring_datacass,4,0.0003,89,89,23,1.6355031728744507,1.9519803524017334,30,nan,fixed_epochs,23,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+spring_datacass,5,0.0003,112,112,22,7.097002029418945,2.037362575531006,30,nan,fixed_epochs,28,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2

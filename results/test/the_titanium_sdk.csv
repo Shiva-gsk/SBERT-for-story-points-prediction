@@ -1,0 +1,2 @@
+project,n_dev,n_test,test_MAE,test_MdAE,baseline_median_MAE,baseline_median_MdAE,baseline_mean_MAE,baseline_mean_MdAE,val_MAE_selected,best_lr,retrain_epochs,epochs_basis,test_start,test_end,seed,fold_scheme,sbert_model,cnn_filters
+the_titanium_sdk,1998,499,2.6767680644989014,2.003986358642578,2.6753506660461426,2.0,2.768723964691162,2.2017016410827637,2.580270791053772,0.001,7,inner_holdout,2018-04-06 18:20:43+00:00,2020-10-16 12:37:30+00:00,42,rolling,sentence-transformers/all-MiniLM-L6-v2,"[16, 32, 64]"

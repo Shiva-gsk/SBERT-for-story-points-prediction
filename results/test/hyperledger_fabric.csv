@@ -1,0 +1,2 @@
+project,n_dev,n_test,test_MAE,test_MdAE,baseline_median_MAE,baseline_median_MdAE,baseline_mean_MAE,baseline_mean_MdAE,val_MAE_selected,best_lr,retrain_epochs,epochs_basis,test_start,test_end,seed,fold_scheme,sbert_model,cnn_filters
+hyperledger_fabric,352,88,0.8675634264945984,0.7528414726257324,0.8977272510528564,1.0,0.9540287256240845,0.6051137447357178,1.2761646032333374,0.001,53,inner_holdout,2018-07-25 10:41:54+00:00,2020-08-25 17:22:11+00:00,42,rolling,sentence-transformers/all-MiniLM-L6-v2,"[16, 32, 64]"

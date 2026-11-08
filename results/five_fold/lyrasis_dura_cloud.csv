@@ -1,0 +1,11 @@
+project,fold,lr,n_train,n_fit,n_val,MAE,MdAE,best_epoch,best_es_MAE,early_stop_source,batch_size_eff,target_shift,seed,fold_scheme,sbert_model
+lyrasis_dura_cloud,1,0.001,64,64,65,1.2232818603515625,0.7473398447036743,30,nan,fixed_epochs,16,1.5,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+lyrasis_dura_cloud,2,0.001,129,129,64,0.7105972766876221,0.045120835304260254,30,nan,fixed_epochs,33,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+lyrasis_dura_cloud,3,0.001,193,193,64,0.5511236786842346,0.012972414493560791,30,nan,fixed_epochs,49,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+lyrasis_dura_cloud,4,0.001,257,218,65,0.5908908843994141,0.017203688621520996,10,0.6200212240219116,inner_holdout,55,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+lyrasis_dura_cloud,5,0.001,322,274,64,0.5776641368865967,0.002237558364868164,31,0.5831238627433777,inner_holdout,64,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+lyrasis_dura_cloud,1,0.0003,64,64,65,1.18367338180542,0.6660394668579102,30,nan,fixed_epochs,16,1.5,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+lyrasis_dura_cloud,2,0.0003,129,129,64,0.712936282157898,0.05632108449935913,30,nan,fixed_epochs,33,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+lyrasis_dura_cloud,3,0.0003,193,193,64,0.5649129152297974,0.049572110176086426,30,nan,fixed_epochs,49,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+lyrasis_dura_cloud,4,0.0003,257,218,65,0.6011053919792175,0.046386122703552246,57,0.6272299289703369,inner_holdout,55,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+lyrasis_dura_cloud,5,0.0003,322,274,64,0.5802421569824219,0.014500916004180908,132,0.5864019989967346,inner_holdout,64,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2

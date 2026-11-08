@@ -1,0 +1,11 @@
+project,fold,lr,n_train,n_fit,n_val,MAE,MdAE,best_epoch,best_es_MAE,early_stop_source,batch_size_eff,target_shift,seed,fold_scheme,sbert_model
+moodle,1,0.001,107,107,107,9.994012832641602,5.002537250518799,30,nan,fixed_epochs,27,8.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+moodle,2,0.001,214,182,108,7.638925075531006,5.000021934509277,30,12.563703536987305,inner_holdout,46,8.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+moodle,3,0.001,322,274,107,8.715981483459473,5.011103630065918,60,9.359782218933105,inner_holdout,64,8.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+moodle,4,0.001,429,365,107,7.676281452178955,4.984235763549805,9,10.003730773925781,inner_holdout,64,8.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+moodle,5,0.001,536,456,107,5.791695594787598,6.002355575561523,20,8.787208557128906,inner_holdout,64,8.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+moodle,1,0.0003,107,107,107,10.005706787109375,5.053069114685059,30,nan,fixed_epochs,27,8.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+moodle,2,0.0003,214,182,108,7.654417991638184,5.032786846160889,62,12.580808639526367,inner_holdout,46,8.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+moodle,3,0.0003,322,274,107,8.720890998840332,5.030910491943359,42,9.364337921142578,inner_holdout,64,8.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+moodle,4,0.0003,429,365,107,7.679492473602295,4.9701642990112305,16,10.006816864013672,inner_holdout,64,8.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+moodle,5,0.0003,536,456,107,5.7916412353515625,6.003011703491211,20,8.787679672241211,inner_holdout,64,8.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2

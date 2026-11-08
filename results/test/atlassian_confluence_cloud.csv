@@ -1,0 +1,2 @@
+project,n_dev,n_test,test_MAE,test_MdAE,baseline_median_MAE,baseline_median_MdAE,baseline_mean_MAE,baseline_mean_MdAE,val_MAE_selected,best_lr,retrain_epochs,epochs_basis,test_start,test_end,seed,fold_scheme,sbert_model,cnn_filters
+atlassian_confluence_cloud,186,46,0.793714165687561,0.8613845109939575,0.782608687877655,1.0,0.9614306092262268,1.2419354915618896,1.4205930948257446,0.001,30,fixed_epochs,2017-05-24 00:36:24+00:00,2020-09-17 20:10:22+00:00,42,rolling,sentence-transformers/all-MiniLM-L6-v2,"[16, 32, 64]"

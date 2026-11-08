@@ -1,0 +1,2 @@
+project,n_dev,n_test,test_MAE,test_MdAE,baseline_median_MAE,baseline_median_MdAE,baseline_mean_MAE,baseline_mean_MdAE,val_MAE_selected,best_lr,retrain_epochs,epochs_basis,test_start,test_end,seed,fold_scheme,sbert_model,cnn_filters
+dotnetnuke_platform,1477,369,0.6396464109420776,0.9952975511550903,0.6395664215087891,1.0,0.7443986535072327,1.1320242881774902,1.0788229346275329,0.001,59,inner_holdout,2016-11-25 22:46:20+00:00,2018-02-26 22:44:38+00:00,42,rolling,sentence-transformers/all-MiniLM-L6-v2,"[16, 32, 64]"

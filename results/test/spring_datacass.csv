@@ -1,0 +1,2 @@
+project,n_dev,n_test,test_MAE,test_MdAE,baseline_median_MAE,baseline_median_MdAE,baseline_mean_MAE,baseline_mean_MdAE,val_MAE_selected,best_lr,retrain_epochs,epochs_basis,test_start,test_end,seed,fold_scheme,sbert_model,cnn_filters
+spring_datacass,134,34,1.9033503532409668,1.9740171432495117,1.9117647409439087,2.0,2.994915008544922,3.9413552284240723,3.8889575481414793,0.001,30,fixed_epochs,2015-06-01 02:10:21+00:00,2016-02-11 15:51:28+00:00,42,rolling,sentence-transformers/all-MiniLM-L6-v2,"[16, 32, 64]"

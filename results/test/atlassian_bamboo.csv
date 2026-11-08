@@ -1,0 +1,2 @@
+project,n_dev,n_test,test_MAE,test_MdAE,baseline_median_MAE,baseline_median_MdAE,baseline_mean_MAE,baseline_mean_MdAE,val_MAE_selected,best_lr,retrain_epochs,epochs_basis,test_start,test_end,seed,fold_scheme,sbert_model,cnn_filters
+atlassian_bamboo,283,71,0.7316613793373108,0.9945344924926758,0.7183098793029785,1.0,1.1035184860229492,0.6360423564910889,1.1763949513435363,0.001,45,inner_holdout,2011-10-10 02:01:23+00:00,2012-11-08 03:01:06+00:00,42,rolling,sentence-transformers/all-MiniLM-L6-v2,"[16, 32, 64]"

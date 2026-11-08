@@ -1,0 +1,2 @@
+representation,model_configuration,MAE,MdAE
+SBERT sentence embeddings (PS-6),"3-layer CNN, filters [16, 32, 64], lr per project from [0.001, 0.0003], L1 loss, seed 42; within-project, temporal 80/20, 5-fold rolling CV; MAE/MdAE = test, macro-average over 39 projects",1.8571,1.3953

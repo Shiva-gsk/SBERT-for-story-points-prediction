@@ -1,0 +1,11 @@
+project,fold,lr,n_train,n_fit,n_val,MAE,MdAE,best_epoch,best_es_MAE,early_stop_source,batch_size_eff,target_shift,seed,fold_scheme,sbert_model
+the_mongodb_engineering,1,0.001,560,476,561,0.5961032509803772,0.43809211254119873,118,0.4660050868988037,inner_holdout,64,2.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+the_mongodb_engineering,2,0.001,1121,953,560,0.8366637229919434,0.9477205276489258,45,0.395475298166275,inner_holdout,64,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+the_mongodb_engineering,3,0.001,1681,1429,560,0.727253794670105,0.5456240177154541,89,0.7364072799682617,inner_holdout,64,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+the_mongodb_engineering,4,0.001,2241,1905,561,0.8387398719787598,0.5724672079086304,32,0.8070409893989563,inner_holdout,64,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+the_mongodb_engineering,5,0.001,2802,2382,560,0.7735452055931091,0.581567108631134,60,0.838667631149292,inner_holdout,64,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+the_mongodb_engineering,1,0.0003,560,476,561,0.7246111035346985,0.9879453182220459,23,0.8050320744514465,inner_holdout,64,2.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+the_mongodb_engineering,2,0.0003,1121,953,560,0.836256206035614,0.9485364556312561,76,0.4008573889732361,inner_holdout,64,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+the_mongodb_engineering,3,0.0003,1681,1429,560,0.7464509010314941,0.9628319144248962,55,0.7606160044670105,inner_holdout,64,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+the_mongodb_engineering,4,0.0003,2241,1905,561,0.8884688019752502,0.9167014360427856,1,0.833353579044342,inner_holdout,64,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+the_mongodb_engineering,5,0.0003,2802,2382,560,0.8250186443328857,0.8778082132339478,1,0.9544539451599121,inner_holdout,64,1.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2

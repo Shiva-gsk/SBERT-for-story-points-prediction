@@ -1,0 +1,2 @@
+project,n_dev,n_test,test_MAE,test_MdAE,baseline_median_MAE,baseline_median_MdAE,baseline_mean_MAE,baseline_mean_MdAE,val_MAE_selected,best_lr,retrain_epochs,epochs_basis,test_start,test_end,seed,fold_scheme,sbert_model,cnn_filters
+lyrasis_dura_cloud,386,97,0.8632477521896362,0.9517031908035278,0.876288652420044,1.0,0.6592329144477844,0.7797927856445312,0.728574025630951,0.0003,94,inner_holdout,2015-07-08 01:00:54+00:00,2018-02-19 14:17:54+00:00,42,rolling,sentence-transformers/all-MiniLM-L6-v2,"[16, 32, 64]"

@@ -1,0 +1,11 @@
+project,fold,lr,n_train,n_fit,n_val,MAE,MdAE,best_epoch,best_es_MAE,early_stop_source,batch_size_eff,target_shift,seed,fold_scheme,sbert_model
+hyperledger_blockchain_explorer,1,0.001,31,31,31,0.9478715658187866,0.06562304496765137,30,nan,fixed_epochs,8,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+hyperledger_blockchain_explorer,2,0.001,62,62,31,1.2393279075622559,0.9662721157073975,30,nan,fixed_epochs,16,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+hyperledger_blockchain_explorer,3,0.001,93,93,31,0.9504409432411194,0.03956437110900879,30,nan,fixed_epochs,24,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+hyperledger_blockchain_explorer,4,0.001,124,124,31,1.3377200365066528,1.0206811428070068,30,nan,fixed_epochs,31,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+hyperledger_blockchain_explorer,5,0.001,155,155,31,1.7546775341033936,1.0231671333312988,30,nan,fixed_epochs,39,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+hyperledger_blockchain_explorer,1,0.0003,31,31,31,0.9361311197280884,0.047023773193359375,30,nan,fixed_epochs,8,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+hyperledger_blockchain_explorer,2,0.0003,62,62,31,1.240752935409546,0.9647822380065918,30,nan,fixed_epochs,16,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+hyperledger_blockchain_explorer,3,0.0003,93,93,31,0.9504984617233276,0.0399477481842041,30,nan,fixed_epochs,24,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+hyperledger_blockchain_explorer,4,0.0003,124,124,31,1.3547402620315552,1.0433673858642578,30,nan,fixed_epochs,31,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
+hyperledger_blockchain_explorer,5,0.0003,155,155,31,1.7655482292175293,1.0401196479797363,30,nan,fixed_epochs,39,3.0,42,rolling,sentence-transformers/all-MiniLM-L6-v2
